@@ -1,0 +1,30 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.moby{
+    border-top:5px solid aqua;
+}
+
+
+h2{
+    padding-top: 30px;
+    padding-left: 100px;
+    writing-mode: vertical-lr;
+    color:aqua;
+    font-size: 50px;
+    float: left;
+}
+
+p{
+    position: relative;
+    margin-left: 250px;
+    width: 800px;
+    padding-top: 30px;
+}
+
+.moby p:nth-of-type(2) {
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
