@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            border: 2px solid red;
+            width: calc(100% - px);
+            border-radius: 25px;
+        }
+        header{
+            display: block;
+            border-radius: 25px;
+            background-color: red;
+            width: calc(100% - 20px);
+            height: 100px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            margin: 10px;
+        }
+
+        header div{
+            transform: translate(0,25%);
+        }
+
+        .container{
+            border: 2px solid red;
+            border-radius: 25px;
+            height: 370px;
+            margin: 10px;
+            width: calc(100%-20px);
+        }
+
+        #block1{
+            margin: 10px;
+            width: 200px;
+            height: 350px;
+            background-color: red;
+            position: absolute;
+            left: 20px;
+            border-radius: 25px;
+            color:white;
+            font-size: 50px;
+        }
+
+        #block1 div{
+            display: block;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #block2{
+            margin: 10px;
+            height: 350px;
+            width: calc(100% - 484px);
+            position: absolute;
+            left: 230px;
+            border: 1px solid red;
+            border-radius: 25px;
+            margin-right: 10px;
+            color: red;
+            font-size: 50px;
+        }
+
+        #block2 div{
+            display: block;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        #block3{
+            margin: 10px;
+            width: 200px;
+            height: 350px;
+            background-color: red;
+            border-radius: 25px;
+            position: absolute;
+            right: 20px;
+            color: white;
+            font-size: 50px;
+        }
+
+        #block3 div{
+            display: block;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        footer{
+            display: block;
+            border-radius: 25px;
+            background-color: red;
+            width: calc(100% - 20px);
+            height: 100px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            margin: 10px;
+        }
+
+        footer div{
+            transform: translate(0,25%);
+        }
+    </style>
+    <body>
+        <header><div>头部</div></header>
+        <div class="container">
+            <div id="block1"><div>定宽</div></div>
+            <div id="block2"><div>自适应</div></div>
+            <div id="block3"><div>定宽</div></div>
+        </div>
+        <footer><div>底部</div></footer>
+    </body>
+</html>
