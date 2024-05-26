@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #header1{
+                display: block;
+                width: 100%;
+                height: 100px;
+                font-size: 30px;
+                color: black;
+                line-height: 100px;
+                background-color: yellow;
+            }
+
+            .header2{
+                position: sticky;
+                top: 0;
+                display: block;
+                background-color: black;
+                color: white;
+                width: 100%;
+                height: 50px;
+                z-index: 1;
+            }
+
+            .min_head{
+                display: flex;
+                background-color: pink;
+                width: 50%;
+                height: 100%;
+                justify-content: space-around;
+                line-height: 50px;
+                position: relative;
+                left:25%;
+            }
+
+            .main{
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                color: black;
+                background-color: greenyellow;
+                text-wrap: wrap;
+                align-items: center;
+            }
+
+            .main div{
+                display: block;
+                position: relative;
+                top: 50%;
+                left: 10%;
+                transform: translateY(-50%);
+                width: 80%;
+            }
+
+            .blog{
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                color: black;
+                background-color: aquamarine;
+                line-height: 500px;
+            }
+
+            .article{
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                color: black;
+                background-color: aquamarine;
+                line-height: 500px;
+            }
+
+            .connect{
+                width: 100%;
+                height: 500px;
+                text-align: center;
+                color: black;
+                background-color: aquamarine;
+                line-height: 500px;
+            }
+
+            #footer{
+                background-color: antiquewhite;
+                width: 100%;
+                height: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header1"><div>LOGO</div></div>
+        <div class="header2">
+            <div class="min_head">
+            <div id="item1">HOME</div>
+            <div id="item2">BLOG</div>
+            <div id="item3">ARTICLE</div>
+            <div id="item4">CONNET ME</div>
+            </div>
+        </div>
+        <div class="main">
+            <div>
+            Main content here<br>
+            中国人民大学前身是1937年诞生于抗日战争烽火中的陕北公学，以及后来的华北联合大学和北方大学、华北大学。学校始终与党和国家同呼吸、共命运，始终得到党中央的亲切关怀和高度重视。
+            陕北公学时期，毛泽东同志非常关心学校办学工作，先后十次来校发表演讲，他曾说：“中国不会亡，因为有陕公。” 根据中共中央政治局的建议，1949年12月16日，中央人民政府政务院第十一次政务会议决定成立中国人民大学。1950年10月3日，刘少奇同志出席学校开学典礼并发表讲话，指出中国人民大学“是我们新中国办的第一所新式大学，是中国历史上前所未有过的大学，中国将来的许多大学都要学习我们中国人民大学的经验，按照中国人民大学的样子来办”。这是“新中国的完全新式的高等教育的起点”。学校迅速发展成为一所具有重大影响力的以培养马列主义理论人才和财经、政法干部为主的综合性大学。改革开放后，邓小平同志指出，学校“主要培养财贸、经济管理干部和马列主义理论工作者”。江泽民同志于2002年来校考察指导工作，强调发展繁荣哲学社会科学，鼓励学校“成为以人文社会科学为主的世界知名的一流大学”。胡锦涛同志于2008年、2010年视察学校，勉励学校弘扬光荣传统，“办出特色、办出水平 ”，努力创建“人民满意、世界一流”大学。
+            </div>
+        </div>
+        <div class="blog">Blog content here</div>
+        <div class="article">Article content here</div>
+        <div class="connect">connect content here</div>
+        <div id="footer"></div>
+    </body>
+</html>

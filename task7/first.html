@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        figure{
+            margin: 0;
+            position:relative;
+            display: inline-block;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        figcaption{
+            position: absolute;
+            top: 50%;
+            transform: translate(0,-50%);
+            opacity: 0.9;
+            z-index: 1;
+            text-align: center;
+            word-wrap: break-word;
+            color: white;
+        }
+
+        a{
+            border: 1px solid white;
+            text-decoration: none;
+            color: white;
+        }
+
+        img{
+            width: 450px;
+            height: 300px;
+        }
+    </style>
+    <body>
+        <figure >
+            <figcaption>
+                <!--文字内容自定-->
+                <h2>Beauty Makeup</h2>
+                    <p>
+                      Every Girl loves to be beautiful.
+                      <br>
+                      As the saying goes, there are no ugly Girl in the world.Only lazy women
+                    </p>
+                    <a href="#">Get in Touch</a>
+            </figcaption>
+            <img src="mountain.jpg" alt="mountain">
+        </figure>
+    </body>
+</html>

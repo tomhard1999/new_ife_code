@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>在 CSS 中将文本放置在图像上</title>
+<style>
+    .box{
+        position: relative;
+        display: inline-block; /* 使框的宽度与图像相同 */
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* 调整此值以上下移动定位的 div */
+        text-align: center;
+        width: 60%; /* 设置定位 div 的宽度 */
+    }
+</style>
+</head> 
+<body>
+    <div class="box">
+        <img src="mountain.jpg" alt="Flying Kites" width="500px",height="500px">
+        <div class="text">
+            <h1>Flying Kites</h1>
+        </div>
+    </div>
+</body>
+</html> 
