@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        .grid{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            /*minmax(min,max)，它就两个值，一个最小值，一个最大值，如果最小值>最大值，那么最大值无效*/
+        }
+
+        .grid li{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+    <body>
+        <ul class="grid">
+            <li>
+              <h2>Card 1</h2>
+              <p>...</p>
+            </li>
+            <li>
+              <h2>Card 2</h2>
+              <p>...</p>
+            </li>
+            <li>
+              <h2>Card 3</h2>
+              <p>...</p>
+            </li>
+            <li>
+              <h2>Card 4</h2>
+              <p>...</p>
+            </li>
+            <li>
+              <h2>Card 5</h2>
+              <p>...</p>
+            </li>
+          </ul>          
+    </body>
+</html>
